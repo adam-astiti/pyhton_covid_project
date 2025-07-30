@@ -1,8 +1,8 @@
-streamlit==1.36.0
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.4.2
-plotly==5.15.0
-matplotlib==3.8.4
-joblib==1.4.2
-nbformat==5.10.4
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+matplotlib
+pickle
+nbformat
