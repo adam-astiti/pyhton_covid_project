@@ -53,7 +53,7 @@ def load_model(model_path):
         st.error(f"Error: Model file '{model_path}' not found.")
         st.stop()
 
-new_cases_prediction_model =  load_model(r'D:\Project\pyhton_covid_project\new_cases_prediction_model.pkl')
+new_cases_prediction_model =  load_model(r'new_cases_prediction_model.pkl')
 
 # Load css to adjust theme
 css_load()
