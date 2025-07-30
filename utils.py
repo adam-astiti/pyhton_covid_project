@@ -82,8 +82,6 @@ def load_and_clean_data():
     df = pd.read_csv(r"Japan Covid Data\cleaned_data_japan-owid-covid-data.csv")
     return df
 
-df = load_and_clean_data()
-
 
 # Plot creator functions
 def create_lineplot(data_frame, x, y, color=None, title=None, markers= True, line_dash=None, labels=None, title_font_size = 30):
