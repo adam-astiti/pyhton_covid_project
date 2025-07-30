@@ -16,9 +16,11 @@ st.set_page_config(
 
 # Title
 st.image(r"copid.jpg", use_container_width=True)
-from utils import css_load
-df = pd.read_csv(r"Japan Covid Data\cleaned_data_japan-owid-covid-data.csv")
+import utils
+df = pd.read_csv("Japan Covid Data\cleaned_data_japan-owid-covid-data.csv")
 
+# Load css to adjust theme
+utils.css_load()
 
 # Sidebar
 with st.sidebar:
@@ -54,9 +56,6 @@ def load_model(model_path):
         st.stop()
 
 new_cases_prediction_model =  load_model(r'new_cases_prediction_model.pkl')
-
-# Load css to adjust theme
-css_load()
 
 column_to_use = inspect_dataframe(df)
 column_to_use	= column_to_use[column_to_use['non_null_count'] > 1000]
