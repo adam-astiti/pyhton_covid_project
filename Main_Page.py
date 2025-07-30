@@ -17,7 +17,7 @@ st.set_page_config(
 
 import utils
 
-css_load()
+utils.css_load()
 df = load_and_clean_data()
 
 # Create variable for chart
