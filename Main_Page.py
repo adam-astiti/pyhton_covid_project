@@ -18,7 +18,7 @@ st.set_page_config(
 import utils
 
 utils.css_load()
-df = load_and_clean_data()
+df = utils.load_and_clean_data()
 
 # Create variable for chart
 test_case_and_death = df.groupby(['year', 'month'])[['total_cases', 'total_deaths', 'total_tests']].max().reset_index()
