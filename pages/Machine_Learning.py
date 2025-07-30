@@ -17,7 +17,7 @@ st.set_page_config(
 # Title
 st.image(r"copid.jpg", use_container_width=True)
 import utils
-df = pd.read_csv("Japan Covid Data\cleaned_data_japan-owid-covid-data.csv")
+df = pd.read_csv("Japan Covid Data/cleaned_data_japan-owid-covid-data.csv")
 
 # Load css to adjust theme
 utils.css_load()
