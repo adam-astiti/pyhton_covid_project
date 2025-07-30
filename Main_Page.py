@@ -16,6 +16,7 @@ st.set_page_config(
 )
 
 import utils
+from utils import create_lineplot
 
 utils.css_load()
 df = utils.load_and_clean_data()
