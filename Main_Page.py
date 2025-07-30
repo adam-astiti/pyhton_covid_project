@@ -15,9 +15,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-from utils import css_load
-from utils import load_and_clean_data
-from utils import create_lineplot
+import utils
 
 css_load()
 df = load_and_clean_data()
