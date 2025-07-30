@@ -1,9 +1,8 @@
 streamlit
 pandas
 numpy
-plotly.express
-plotly.graph_objects
+plotly
 nbformat
-matplotlib.pyplot
+matplotlib
 pickle
-sklearn.model_selection
+sklearn
