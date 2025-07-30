@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-plotly==5
+plotly==4.14.3
 nbformat
 matplotlib
 pickle
