@@ -98,7 +98,7 @@ Predicting the number of new cases provides a direct, tangible, and actionable m
 """)
 
 st.header('Model Evaluation')
-st.image(r'D:\Project\pyhton_covid_project\Predicted case vs actual case.png')
+st.image('Predicted case vs actual case.png')
 with st.expander("Model Overview (Click Here)"):
     st.markdown("""
     This model is designed to **predict the smoothed daily new COVID-19 cases in Japan**.
