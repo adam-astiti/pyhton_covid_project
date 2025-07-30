@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+plotly.express
+plotly.graph_objects
+nbformat
+matplotlib.pyplot
+pickle
+sklearn.model_selection
