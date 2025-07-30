@@ -79,7 +79,7 @@ def css_load():
 # --- DATA LOADING (Cached) ---
 @st.cache_data
 def load_and_clean_data():
-    df = pd.read_csv(r"Japan Covid Data\cleaned_data_japan-owid-covid-data.csv")
+    df = pd.read_csv("Japan Covid Data/cleaned_data_japan-owid-covid-data.csv")
     return df
 
 
