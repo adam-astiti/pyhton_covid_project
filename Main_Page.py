@@ -49,7 +49,7 @@ st.markdown("---")
 with st.sidebar:
     selected_chart = st.sidebar.radio('Select Chart', ('Overall Trends', 'Total Tests', 'Total Deaths', 'Total Cases'))
     st.divider()
-    st.image('D:\Project\pyhton_covid_project\streamlit-logo-primary-colormark-darktext.png', use_container_width=False)
+    st.image('streamlit-logo-primary-colormark-darktext.png', use_container_width=False)
     st.write("""### Project by: **Adam Astiti**""")
     st.link_button('Linkedin', 'https://www.linkedin.com/in/adam-astiti-a3787312a/', icon='💼')
     st.link_button('Github', 'https://github.com/adam-astiti', icon='👨‍💻')
