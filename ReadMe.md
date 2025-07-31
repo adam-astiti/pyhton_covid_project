@@ -1,7 +1,22 @@
 # Japan COVID-19 Pandemic: An End-to-End Analysis and Forecasting Project
 This repository contains a comprehensive, end-to-end data analysis project that explores the dynamics of the COVID-19 pandemic in Japan. The project showcases a full data science workflow, from initial data cleaning and exploratory analysis to building and deploying a predictive machine learning model.
 
-➡️ View the Live Streamlit Dashboard Here 👈 (Don't forget to add your Streamlit app link here!)
+ ![covid](https://github.com/user-attachments/assets/d0f5b7a5-4069-434d-b319-9854b00c87c6)
+Click here for: [Live Streaming of Project](https://adampyhtoncovidproject.streamlit.app/)
+
+# Project Introduction
+
+The COVID-19 pandemic has been one of the most significant global health crises in modern history, generating an unprecedented amount of data. For data analysts, this provides a unique opportunity to apply analytical techniques to understand and interpret the complex dynamics of a real-world pandemic.
+
+This project undertakes an end-to-end analysis of the COVID-19 pandemic in Japan, utilizing the comprehensive dataset provided by Our World in Data. With a background in biology, this analysis goes beyond surface-level metrics to explore the epidemiological and immunological narratives hidden within the data.
+
+## The primary objectives of this project are:
+
+1. To conduct a thorough exploratory data analysis (EDA) to visualize and understand the key trends, including the evolution of infection waves and the impact of the national vaccination campaign.
+   
+2. To develop and evaluate supervised machine learning models to forecast future cases and classify weekly risk levels, demonstrating the practical application of predictive analytics in public health.
+
+Ultimately, this project serves as a comprehensive case study demonstrating the ability to handle complex, real-world data, derive meaningful insights, and build predictive models to answer critical questions.
 
 # 📂 Project Structure & File Explanations
 This project is organized into distinct files and folders, each with a specific purpose.
