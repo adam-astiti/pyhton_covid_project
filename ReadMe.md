@@ -47,20 +47,28 @@ This notebook documents the process of building, training, and validating the pr
 
 - Model Saving: The final, trained model is saved to a .pkl file so it can be easily loaded into the Streamlit application without needing to be retrained.
 
-## Streamlit Application Files
+Of course. Highlighting your use of interactive Plotly is a great idea as it showcases more advanced visualization skills.
+
+Here is the revised text for that section of your README.
+
+# Streamlit Application Files
 These files work together to create the interactive web dashboard.
 
-### Main_Page.py
+## Main_Page.py
+![covid page 1](https://github.com/user-attachments/assets/0d329fa4-244a-4969-8e27-8d91df276e5e)
+
 This is the main entry point and the "home page" of the Streamlit application.
 
-Purpose: To introduce the project to the user and to display the key findings from the Exploratory Data Analysis (EDA). It sets the context before the user explores the predictive model.
+- Purpose: To introduce the project and display the key findings from the Exploratory Data Analysis (EDA). This page uses interactive Plotly charts to create a dynamic and engaging user experience, setting the context before the user explores the predictive model.
 
-### pages/Machine_Learning.py
+## pages/Machine_Learning.py
+![covid page 2](https://github.com/user-attachments/assets/825763dc-5163-4097-b204-6db0cbcc0f10)
+
 This script creates the second page of the application, dedicated to the machine learning model.
 
-Purpose: To provide an interactive interface for the forecasting model. It displays the model's performance metrics (like the R² score) and allows users to run a 7-day forecast, complete with a visualization of the results and an uncertainty interval.
+- Purpose: To provide an interactive interface for the forecasting model. It displays the model's performance metrics (like the R² score) and allows users to run a 7-day forecast, complete with a visualization of the results and an uncertainty interval.
 
-### utils.py
+## utils.py
 This is a helper script that contains reusable functions to keep the main application code clean and organized.
 
-Purpose: To store functions for tasks that are used in multiple places, such as loading data, loading the model, and the core logic for generating the iterative forecast. This is a best practice for writing modular and maintainable code.
+- Purpose: To store functions for tasks that are used in multiple places, such as loading data, loading the model, and the core logic for generating the iterative forecast. This is a best practice for writing modular and maintainable code.
